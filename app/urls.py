@@ -14,7 +14,7 @@ from core.views import AcessorioViewSet, CorViewSet, CategoriaViewSet, UserViewS
 router = DefaultRouter()
 
 router.register(r"acessorios", AcessorioViewSet, basename="acessorios")
-router.register(r"cors", CorViewSet, basename="cors")
+router.register(r"cores", CorViewSet, basename="cores")
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
 router.register(r"users", UserViewSet, basename="users")
 router.register(r"marcas", MarcaViewSet, basename="marcas")
